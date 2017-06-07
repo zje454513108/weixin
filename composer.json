@@ -1,22 +1,15 @@
 {
     "name": "vdong/vdwechat",
-    "description": "vdong 123123123 123123",
-    "keywords": ["laravel","performance"],
-    "homepage": "https://github.com/zje454513108/weixin",   
-    "license": "MIT",
-    "authors": [
-      {
-        "name": "tanteng",
-        "email": "zje@qq.com",
-        "homepage": "http://www.51vkr.com",
-        "role": "Developer"
-      }
+    "type": "library",
+    "description": "微信支付 PHP SDK",
+    "keywords": [
+        "wechat",
+        "pay",
+        "sdk"
     ],
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "laravel/framework": "~4.0"
-    },
+    "license": "BSD",
+    "minimum-stability" : "dev",
     "autoload": {
-      "psr-4": { "Loading\\": "" }
+        "psr-4": {"Vdong\\": "src/"}
     }
 }
