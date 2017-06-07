@@ -1,5 +1,22 @@
 {
+    "name": "vdong/vdwechat",
+    "description": "vdong 123123123 123123",
+    "keywords": ["laravel","performance"],
+    "homepage": "https://github.com/zje454513108/weixin",   
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "tanteng",
+        "email": "zje@qq.com",
+        "homepage": "http://www.51vkr.com",
+        "role": "Developer"
+      }
+    ],
     "require": {
-        "overtrue/wechat": "^3.3"
+        "php": "^5.3.3 || ^7.0",
+        "laravel/framework": "~4.0"
+    },
+    "autoload": {
+      "psr-4": { "Loading\\": "" }
     }
 }
